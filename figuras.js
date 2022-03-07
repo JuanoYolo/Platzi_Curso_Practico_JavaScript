@@ -31,13 +31,13 @@ function areaCuadrado(ladoCuadrado){
 
 
 console.group("Triangulo");
-function calcularPerimetroTriangulo(ladoTriangulo1, ladoTriangulo2, base){
+function PerimetroTriangulo(ladoTriangulo1, ladoTriangulo2, base){
     var perimetro = ladoTriangulo1 + ladoTriangulo2 + base;
 
     console.log("El perimetro del triangulo es " + perimetro + "cm");
 }
 
-function calcularAreaTriangulo(base, altura){
+function AreaTriangulo(base, altura){
     var area = (base * altura) / 2;
 
     console.log("El area del triangulo es " + area + "cm2");
@@ -45,13 +45,13 @@ function calcularAreaTriangulo(base, altura){
 console.groupEnd();
 
 console.group("Circulo");
-function calcularPerimetroCirculo(radioCirculo){
+function PerimetroCirculo(radioCirculo){
     var perimetro = 2 * radioCirculo * pii;
 
     console.log("El perimetro del Circulo es " + perimetro + "cm");
 }
 
-function calcularAreaCirculo(radioCirculo){
+function AreaCirculo(radioCirculo){
     var area = pii * radioCirculo * radioCirculo;
 
     console.log("El area del Circulo es " + area + "cm2");
@@ -81,3 +81,4 @@ function calcularAreaCuadrado(){
     const aea = areaCuadrado(value);
     alert(aea);
 }
+
