@@ -80,5 +80,6 @@ function calcularAreaCuadrado(){
 
     const aea = areaCuadrado(value);
     alert(aea);
+
 }
 
